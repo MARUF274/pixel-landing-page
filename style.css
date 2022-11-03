@@ -2413,7 +2413,10 @@ button.btn.btn-link i {
   .footer-column {
     width: 50%;
   }
-
+  .footer-logo{
+      margin-left: 50%;
+      transform: translate(-50%);
+  }
   .nav-item {
     font-size: 3.758vw;
   }
