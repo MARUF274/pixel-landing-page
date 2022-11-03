@@ -34,6 +34,9 @@
   max-height: 85vh;
   overflow: hidden;
 }
+.user-img{
+  width: 30px;
+}
 
 .btn-product {
   margin-top: 0 !important;
