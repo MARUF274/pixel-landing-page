@@ -34,6 +34,7 @@
   max-height: 85vh;
   overflow: hidden;
 }
+
 .header-card{
   font-family: 'Lato';
 font-style: normal;
@@ -44,6 +45,11 @@ margin-bottom: 0!important;
 margin-top: 12px;
 /* identical to box height */
 
+
+.user-img{
+  width: 25%!important;
+  margin-right: 2vw;
+}
 
 color: #000000;
 }
@@ -68,7 +74,6 @@ padding: 10% 0;
 }
 .bg-light2{
   background-color: #fff;
-
 }
 .button {
   color: var(--dl-color-scheme-green100);
@@ -1164,6 +1169,7 @@ button.btn.btn-link i {
   height: 250px;
   object-fit: cover;
   filter: drop-shadow(0px 18px 17px rgba(17, 35, 79, 0.2));
+
 border-radius: 12px;
 }
 
