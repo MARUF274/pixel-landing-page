@@ -20,11 +20,12 @@
 	    margin:30,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
-	    nav:false,
+	    nav:true,
+		lazyLoad: true,
 	    dots: true,
 	    autoplayHoverPause: false,
 	    items: 1,
-	    navText : ["<span class='ion-ios-arrow-back'></span>","<span class='ion-ios-arrow-forward'></span>"],
+	    navText : ["<i><img src='img/left-arrow.svg'></i>","<i><img src='img/right-arrow.svg'></i>"],
 	    responsive:{
 	      0:{
 	        items:1
