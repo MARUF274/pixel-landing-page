@@ -5,6 +5,24 @@
   "dependencies": {
     "parcel-bundler": "^1.6.1"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MARUF274/pixel-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MARUF274/pixel-landing-page/issues"
+  },
+  "homepage": "https://github.com/MARUF274/pixel-landing-page#readme",
+  "description": ""
 }
