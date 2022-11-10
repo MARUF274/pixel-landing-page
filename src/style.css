@@ -1199,7 +1199,7 @@ border-radius: 12px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     line-height: 31px;
     color: #163441;
     opacity: 0.78;
@@ -2818,9 +2818,6 @@ border-radius: 12px;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
-  }
-  .blog-post-card1-text2{
-    font-size: 4vw;
   }
 }
 
