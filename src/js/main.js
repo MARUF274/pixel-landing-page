@@ -20,6 +20,7 @@
 	    margin:30,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
+		autoWidth: false,
 	    nav:true,
 		lazyLoad: true,
 	    dots: true,
@@ -34,8 +35,11 @@
 	        items:2
 	      },
 	      1000:{
-	        items:3
-	      }
+	        items:2
+	      },
+		  1600:{
+			items:3
+		  }
 	    }
 		});
 

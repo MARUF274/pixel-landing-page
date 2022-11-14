@@ -29,6 +29,21 @@
   --dl-color-scheme-lightgreen: #86c754ff;
   --dl-space-space-oneandhalfunits: 24px;
 }
+.owl-stage-outer {
+  overflow: visible !important;
+}
+.container4{
+  overflow: hidden!important;
+}
+.menu-item-custom{
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+.menu-item-custom .nav-item{
+  margin: 0 15px;
+}
+
 .img-side {
   max-height: 85vh;
   /* overflow: hidden; */
@@ -41,11 +56,16 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  font-size: 1.8vw;
+  font-size: 34px;
   line-height: 41px;
-  margin-bottom: 0!important;
-  margin-top: 12px;
+  /* identical to box height */
+  margin-top: 30px;
+  margin-bottom: 15px;
+  
+  
   color: #000000;
+  
+  
 }
 .img-hero{
   width: 75%;
@@ -105,10 +125,16 @@ padding: 10% 0;
 }
 .testi-text{
   font-family: 'Lato';
-font-style: normal;
-font-weight: 300;
-font-size: 1.8vw;
-opacity: 0.6;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  /* or 118% */
+  
+  
+  color: #FFFFFF;
+  
+  opacity: 0.6;
 }
 .list {
   width: 100%;
@@ -659,6 +685,11 @@ a {
 .small-blue-text {
   color: #50E5F3 !important;
   font-weight: bold;
+  font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+
+color: #50E5F3;
 }
 
 .stackem div {
@@ -712,7 +743,7 @@ h1 {
 }
 
 .footer-48201 {
-  padding: 7rem 0;
+  padding-top: 7rem;
   background-color: #000;
   color: #777;
 }
@@ -1185,7 +1216,6 @@ border-radius: 12px;
 .blog-post-card1-text {
   color: #fff;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .blog-post-card1-text1 {
@@ -1198,10 +1228,14 @@ border-radius: 12px;
     margin-bottom: var(--dl-space-space-fourunits);
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 300;
-    font-size: 1.8vw;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 31px;
+    /* or 172% */
+    
+    
     color: #163441;
+    
     opacity: 0.78;
 }
 
@@ -1443,7 +1477,7 @@ border-radius: 12px;
   color: white;
 }
 .service{
-  margin-top: 5vh;
+  margin-top: 100px;
 }
 .home-container04 {
   display: flex;
@@ -2276,6 +2310,9 @@ border-radius: 12px;
   .navbar-burger-menu {
     display: flex;
   }
+  .owl-carousel .owl-nav{
+    visibility: hidden;
+  }
   .blog-post-card1-text2{
     font-size: 4vw!important;
   }
@@ -2824,6 +2861,9 @@ border-radius: 12px;
 @media only screen and (max-width: 991px) {
   .header-card{
     font-size: 3.5vw;
+  }
+  .menu-item-custom{
+    flex-direction: column;
   }
   .blog-post-card1-text2 {
     font-size: 2vw;

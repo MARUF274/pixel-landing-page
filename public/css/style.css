@@ -11781,8 +11781,7 @@ h5 {
 
 .owl-carousel .owl-stage-outer {
     padding-top: 1.5em;
-    position: relative;
-    margin-bottom: 100px;
+    position: relative
 }
 
 .owl-carousel .owl-item {
@@ -11853,8 +11852,7 @@ h5 {
 
 .owl-carousel .owl-dots {
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .owl-carousel .owl-dots .owl-dot {
@@ -11898,17 +11896,17 @@ h5 {
 }
 
 .testimony-wrap .name {
-    font-family: Lato;
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 25.4118px;
     line-height: 120%;
-    color: #fff
+    color: #FFFFFF;
 }
 
 .testimony-wrap .position {
     font-size: 12px;
     color: #fff;
-    opacity: .6;
-    font-weight: 500
+    opacity: 0.6;
+    font-weight: 500;
 }
