@@ -43,7 +43,10 @@
 .menu-item-custom .nav-item{
   margin: 0 15px;
 }
-
+.faq-container{
+  margin-top: 120px; 
+  margin-bottom:220px;
+}
 .img-side {
   max-height: 85vh;
   /* overflow: hidden; */
@@ -490,6 +493,13 @@ padding: 10% 0;
 .navbar-burger-menu {
   display: none;
 }
+.main-project{
+  margin-top: 50px; 
+  margin-bottom: 209px;
+}
+.project-header{
+  margin-top: 99px;
+}
 
 .max-width {
   width: 100%;
@@ -608,6 +618,7 @@ padding: 10% 0;
   text-transform: uppercase;
   text-decoration: none;
 }
+.project
 
 .brand-Name {
   font-size: 20px;
@@ -2512,6 +2523,24 @@ border-radius: 12px;
   .footer-column {
     width: 50%;
   }
+  .main-project{
+    margin-bottom: 0!important;
+    margin-top: 20px!important;
+  }
+  .header-card{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 7vw!important;
+  }
+  .blog-post-card1-text2{
+    margin-bottom: 0!important;
+  }
+  .project-header{
+    margin-top: 20px!important;
+  }
+  .service{
+    margin-top: 20px!important;
+  }
   .footer-logo{
       margin-left: 50%;
       transform: translate(-50%);
@@ -2522,6 +2551,18 @@ border-radius: 12px;
 
   .header-section {
     font-size: 13.570vw;
+  }
+  .header-testi{
+    flex-direction: column;
+    align-items: center!important;
+    justify-content: center!important;
+    text-align: center;
+  }
+  .btn-blue{
+    font-size: 4vw!important;
+  }
+  .small-blue-text{
+    font-size: 4vw;
   }
 
   .text-center1 {
@@ -2862,6 +2903,16 @@ border-radius: 12px;
   .header-card{
     font-size: 3.5vw;
   }
+  .service{
+    margin-top: 30px;
+  }
+  .project-header{
+    margin-top: 20px;
+  }
+  .main-project{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
   .menu-item-custom{
     flex-direction: column;
   }
@@ -2880,7 +2931,7 @@ border-radius: 12px;
   }
 
   .img-service {
-    max-width: 12vw;
+    max-width: 15vw;
   }
 
   .popular_courses .owl-nav {
@@ -2912,7 +2963,10 @@ border-radius: 12px;
     flex-direction: row;
     justify-content: space-between;
   }
-
+  .faq-container{
+    margin-top: 40px!important;
+    margin-bottom: 50px;
+  }
 
   .blog-post-card11-image {
     height: 350px;
@@ -3118,7 +3172,7 @@ border-radius: 12px;
   }
 
   .resp {
-    font-size: 2.5vw;
+    font-size: 4vw;
     margin-bottom: 0 !important;
   }
 }
